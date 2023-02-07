@@ -1,12 +1,12 @@
-db.produtos.updateOne(
+db.products.updateOne(
   {
-    nome: "Quarteirão com Queijo",
+    name: "Quarteirão com Queijo",
   },
   {
     $pop: {
-      ingredientes: -1,
+      ingredients: -1,
     },
   },
 );
 
-db.produtos.find({}, { _id: 0, nome: 1, ingredientes: 1 });
+db.products.find({}, { _id: 0, name: 1, ingredients: 1 });

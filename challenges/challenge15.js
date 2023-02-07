@@ -1,22 +1,22 @@
-db.produtos.updateMany(
+db.products.updateMany(
   {},
   {
-    $set: { avaliacao: NumberInt(0) },
+    $set: { rating: NumberInt(0) },
   },
 );
 
-db.produtos.updateMany(
+db.products.updateMany(
   { tags: "bovino" },
   {
-    $inc: { avaliacao: NumberInt(5) },
+    $inc: { rating: NumberInt(5) },
   },
 );
 
-db.produtos.updateMany(
+db.products.updateMany(
   { tags: "ave" },
   {
-    $inc: { avaliacao: NumberInt(3) },
+    $inc: { rating: NumberInt(3) },
   },
 );
 
-db.produtos.find({}, { _id: 0, nome: 1, avaliacao: 1 });
+db.products.find({}, { _id: 0, name: 1, rating: 1 });

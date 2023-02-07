@@ -1,11 +1,11 @@
-db.produtos.find(
+db.products.find(
   {
-    ingredientes: "picles",
+    ingredients: "picles",
   },
   {
     _id: 0,
-    nome: 1,
-    ingredientes: 1,
-    valoresNutricionais: { $slice: 3 },
+    name: 1,
+    ingredients: 1,
+    nutritionalValues: { $slice: 3 },
   },
 );

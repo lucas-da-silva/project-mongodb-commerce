@@ -1,8 +1,8 @@
-db.produtos.updateMany(
+db.products.updateMany(
   {},
   {
-    $set: { criadoPor: "Ronald McDonald" },
+    $set: { createdBy: "Ronald McDonald" },
   },
 );
 
-db.produtos.find({}, { _id: 0, nome: 1, criadoPor: 1 });
+db.products.find({}, { _id: 0, name: 1, createdBy: 1 });

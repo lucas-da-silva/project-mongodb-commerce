@@ -1,8 +1,8 @@
-db.produtos.updateOne(
-  { nome: "Big Mac" },
+db.products.updateOne(
+  { name: "Big Mac" },
   {
-    $currentDate: { ultimaModificacao: true },
+    $currentDate: { lastModification: true },
   },
 );
 
-db.produtos.find({ ultimaModificacao: { $exists: true } }, { _id: 0, nome: 1 });
+db.products.find({ lastModification: { $exists: true } }, { _id: 0, name: 1 });
