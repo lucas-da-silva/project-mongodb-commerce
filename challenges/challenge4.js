@@ -1,12 +1,12 @@
-db.produtos
+db.products
   .find(
     {
-      vendidos: { $gt: 50, $lt: 100 },
+      sold: { $gt: 50, $lt: 100 },
     },
     {
       _id: 0,
-      nome: 1,
-      vendidos: 1,
+      name: 1,
+      sold: 1,
     },
   )
-  .sort({ vendidos: 1 });
+  .sort({ sold: 1 });

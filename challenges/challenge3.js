@@ -1,4 +1,4 @@
-db.produtos
-  .find({}, { _id: 0, nome: 1, vendidos: 1 })
+db.products
+  .find({}, { _id: 0, name: 1, sold: 1 })
   .limit(1)
-  .sort({ vendidos: -1 });
+  .sort({ sold: -1 });
