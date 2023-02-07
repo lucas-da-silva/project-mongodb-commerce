@@ -1,6 +1,6 @@
-db.produtos.find(
+db.products.find(
   {
-    $expr: { $gt: ["$curtidas", "$vendidos"] },
+    $expr: { $gt: ["$likes", "$sold"] },
   },
-  { _id: 0, nome: 1 },
+  { _id: 0, name: 1 },
 );

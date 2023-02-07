@@ -1,30 +1,30 @@
-db.produtos.updateMany(
+db.products.updateMany(
   {},
   {
     $push: {
-      vendasPorDia: {
+      salesPerDay: {
         $each: [0, 0, 0, 0, 0, 0, 0],
       },
     },
   },
 );
 
-db.produtos.updateMany(
-  { nome: "Big Mac" },
+db.products.updateMany(
+  { name: "Big Mac" },
   {
     $inc: {
-      "vendasPorDia.3": 60,
+      "salesPerDay.3": 60,
     },
   },
 );
 
-db.produtos.updateMany(
+db.products.updateMany(
   { tags: "bovino" },
   {
     $inc: {
-      "vendasPorDia.6": 120,
+      "salesPerDay.6": 120,
     },
   },
 );
 
-db.produtos.find({}, { _id: 0, nome: 1, vendasPorDia: 1 });
+db.products.find({}, { _id: 0, name: 1, salesPerDay: 1 });

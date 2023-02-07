@@ -1,6 +1,6 @@
-db.produtos.find(
+db.products.find(
   {
-    vendidos: { $mod: [5, 0] },
+    sold: { $mod: [5, 0] },
   },
-  { _id: 0, nome: 1, vendidos: 1 },
+  { _id: 0, name: 1, sold: 1 },
 );

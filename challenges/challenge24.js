@@ -1,8 +1,8 @@
-db.produtos.updateMany(
+db.products.updateMany(
   {},
   {
     $push: {
-      valoresNutricionais: {
+      nutritionalValues: {
         $each: [],
         $sort: { percentual: -1 },
       },
@@ -10,4 +10,4 @@ db.produtos.updateMany(
   },
 );
 
-db.produtos.find({}, { _id: 0, nome: 1, valoresNutricionais: 1 });
+db.products.find({}, { _id: 0, name: 1, nutritionalValues: 1 });
