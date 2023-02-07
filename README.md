@@ -36,9 +36,9 @@ All created queries are in the [challenges](./challenges/) directory.
 
 [**Challenge15**](./challenges/challenge15.js): Adds the rating field to all documents in the collection and makes the following changes to this field:
 
-- A query that includes the evaluation field of type NumberInt, with the value 0 in all documents in the collection.
+- A query that includes the evaluation field of type NumberInt, with the value 0 in all documents in the collection;
 
-- A query that increments the value of the rating field by 5 for all beef sandwiches, tags field.
+- A query that increments the value of the rating field by 5 for all beef sandwiches, tags field;
 
 - A query that increments the value of the rating field by 3 on all poultry sandwiches.
 
@@ -53,17 +53,21 @@ All created queries are in the [challenges](./challenges/) directory.
 
 [**Challenge20**](./challenges/challenge20.js): Removes the last ingredient from the Cheddar McMelt sandwich;
 
-[**Challenge21**](./challenges/challenge21.js): ;
+[**Challenge21**](./challenges/challenge21.js): Removes the last ingredient from the Cheddar McMelt sandwich;
 
-[**Challenge22**](./challenges/challenge22.js): ;
+[**Challenge22**](./challenges/challenge22.js): Adds the amount of sandwich sales by day of the week:
+- A query that adds a SalesPerDay field to all sandwiches. Being an array with seven positions, represented by 0. The first item in the array represents sales on Sunday, the second item represents sales on Monday, and so on until reaching the last item, which represents sales on Saturday;
+- A query that increases Big Mac sales on Wednesdays by 60.
+- A query that increases sales of all beef sandwiches on Saturdays by 120.
 
-[**Challenge23**](./challenges/challenge23.js): ;
+[**Challenge23**](./challenges/challenge23.js): Insert the combo and tasty values into the tags array of all sandwiches and sort the values in ascending alphabetical order (A to Z):
+- The tag values that are ordered.
 
-[**Challenge24**](./challenges/challenge24.js): ;
+[**Challenge24**](./challenges/challenge24.js): Sorts in all documents the values of the nutricionalValues array by the percentage field in descending order;
 
-[**Challenge25**](./challenges/challenge25.js): ;
+[**Challenge25**](./challenges/challenge25.js): Adds the value too much sodium to the end of the tags array in products where the sodium percentage is greater than or equal to 40;
 
-[**Challenge26**](./challenges/challenge26.js): ;
+[**Challenge26**](./challenges/challenge26.js): Adds the contains sodium value to the end of the tags array on products where the sodium percentage is greater than 20 and less than 40;
 
 [**Challenge27**](./challenges/challenge27.js): Counts how many products contain Mc in the name, without considering uppercase or lowercase letters;
 
