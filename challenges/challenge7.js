@@ -1,11 +1,11 @@
-db.produtos.find(
+db.products.find(
   {
-    vendidos: { $ne: 50 },
+    sold: { $ne: 50 },
     tags: { $exists: false },
   },
   {
     _id: 0,
-    nome: 1,
-    vendidos: 1,
+    name: 1,
+    sold: 1,
   },
 );

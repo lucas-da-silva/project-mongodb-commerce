@@ -1,6 +1,6 @@
-db.produtos.find(
+db.products.find(
   {
-    "valoresNutricionais.3.percentual": { $gte: 30, $lte: 40 },
+    "nutritionalValues.3.percentual": { $gte: 30, $lte: 40 },
   },
-  { _id: 0, nome: 1 },
+  { _id: 0, name: 1 },
 );

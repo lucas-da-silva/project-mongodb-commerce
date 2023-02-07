@@ -1,6 +1,6 @@
-db.produtos.find(
+db.products.find(
   {
-    "valoresNutricionais.0.quantidade": { $lt: 500 },
+    "nutritionalValues.0.amount": { $lt: 500 },
   },
-  { _id: 0, nome: 1 },
+  { _id: 0, name: 1 },
 );

@@ -1,11 +1,11 @@
-db.produtos.find(
+db.products.find(
   {
-    $or: [{ curtidas: 36 }, { vendidos: 85 }],
+    $or: [{ likes: 36 }, { sold: 85 }],
   },
   {
     _id: 0,
-    nome: 1,
-    curtidas: 1,
-    vendidos: 1,
+    name: 1,
+    likes: 1,
+    sold: 1,
   },
 );
