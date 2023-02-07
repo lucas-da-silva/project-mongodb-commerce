@@ -28,13 +28,13 @@ All created queries are in the [challenges](./challenges/) directory.
 
 [**Challenge11**](./challenges/challenge11.js): Returns snacks that are not Big Mac or McChicken;
 
-[**Challenge12**](./challenges/challenge12.js): ;
+[**Challenge12**](./challenges/challenge12.js): Adds ketchup to ingredients for all sandwiches except McChicken, ensuring there are no duplicate ingredients;
 
-[**Challenge13**](./challenges/challenge13.js): ;
+[**Challenge13**](./challenges/challenge13.js): Adds the createdBy field to all documents, putting Ronald McDonald in the value of that field;
 
-[**Challenge14**](./challenges/challenge14.js): ;
+[**Challenge14**](./challenges/challenge14.js): Returns all snacks that have pickles in their ingredients and show only the first 3 items contained in the nutritionalValues array;
 
-[**Challenge15**](./challenges/challenge15.js): ;
+[**Challenge15**](./challenges/challenge15.js): Adds the rating field to all documents in the collection and makes the following changes to this field:;
 
 [**Challenge16**](./challenges/challenge16.js): ;
 
@@ -58,17 +58,17 @@ All created queries are in the [challenges](./challenges/) directory.
 
 [**Challenge26**](./challenges/challenge26.js): ;
 
-[**Challenge27**](./challenges/challenge27.js): ;
+[**Challenge27**](./challenges/challenge27.js): Counts how many products contain Mc in the name, without considering uppercase or lowercase letters;
 
-[**Challenge28**](./challenges/challenge28.js): ;
+[**Challenge28**](./challenges/challenge28.js): Count how many products have 4 ingredients;
 
-[**Challenge29**](./challenges/challenge29.js): ;
+[**Challenge29**](./challenges/challenge29.js): Rename field description to descriptionSite in all documents;
 
-[**Challenge30**](./challenges/challenge30.js): ;
+[**Challenge30**](./challenges/challenge30.js): Remove likes field from Big Mac item;
 
-[**Challenge31**](./challenges/challenge31.js): ;
+[**Challenge31**](./challenges/challenge31.js): Returns the name of sandwiches where the number of likes is greater than the number of sandwiches sold;
 
-[**Challenge32**](./challenges/challenge32.js): ;
+[**Challenge32**](./challenges/challenge32.js): Returns the name and sales (sold) quantity of sandwiches where the sales number is a multiple of 5;
 
 ## Stack used
 
