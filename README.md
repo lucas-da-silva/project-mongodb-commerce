@@ -1,13 +1,16 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# Project MongoDB Commerce
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+First project where I use the MongoDB database, this being a simple project, composed of queries that access a database that simulates a McDonald's menu.
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+All created queries are in the [challenges](./challenges/) directory.
+
+## Queries created
+
+[**Challenge1**](./challenges/challenge1.js): Returns the number of documents in the `products` collection;
+
+[**Challenge2**](./challenges/challenge2.js): Returns the name and quantity of sold snacks, with sold snacks sorted in ascending order;
+
+## Stack used
+
+**Database:** [MongoDB](https://www.mongodb.com/)
+
