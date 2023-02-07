@@ -10,11 +10,11 @@ All created queries are in the [challenges](./challenges/) directory.
 
 [**Challenge2**](./challenges/challenge2.js): Returns the name and quantity of sold snacks, with sold snacks sorted in ascending order;
 
-[**Challenge3**](./challenges/challenge3.js): ;
+[**Challenge3**](./challenges/challenge3.js): Returns the name and quantity of sold snacks of the best selling snack;
 
-[**Challenge4**](./challenges/challenge4.js): ;
+[**Challenge4**](./challenges/challenge4.js): Returns only snacks that had sales greater than 50 and less than 100;
 
-[**Challenge5**](./challenges/challenge5.js): ;
+[**Challenge5**](./challenges/challenge5.js): Returns snacks that had likes equal to 36 or sales amount equal to 85;
 
 [**Challenge6**](./challenges/challenge6.js): ;
 
