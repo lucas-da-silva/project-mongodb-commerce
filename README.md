@@ -34,17 +34,24 @@ All created queries are in the [challenges](./challenges/) directory.
 
 [**Challenge14**](./challenges/challenge14.js): Returns all snacks that have pickles in their ingredients and show only the first 3 items contained in the nutritionalValues array;
 
-[**Challenge15**](./challenges/challenge15.js): Adds the rating field to all documents in the collection and makes the following changes to this field:;
+[**Challenge15**](./challenges/challenge15.js): Adds the rating field to all documents in the collection and makes the following changes to this field:
 
-[**Challenge16**](./challenges/challenge16.js): ;
+- A query that includes the evaluation field of type NumberInt, with the value 0 in all documents in the collection.
 
-[**Challenge17**](./challenges/challenge17.js): ;
+- A query that increments the value of the rating field by 5 for all beef sandwiches, tags field.
 
-[**Challenge18**](./challenges/challenge18.js): ;
+- A query that increments the value of the rating field by 3 on all poultry sandwiches.
 
-[**Challenge19**](./challenges/challenge19.js): ;
+[**Challenge16**](./challenges/challenge16.js): Adds the lastModification field with the current date only in the Big Mac sandwich;
 
-[**Challenge20**](./challenges/challenge20.js): ;
+[**Challenge17**](./challenges/challenge17.js): Returns the total quantity of products in a new collection named ProductSummary: 
+- It has a query that inserts in the summaryProducts collection a document with the fields: franchise with the McDonalds value and totalProducts with the value being the total amount of products registered in the products collection.
+
+[**Challenge18**](./challenges/challenge18.js): Include bacon at the end of the ingredients list for Big Mac and Cheese Quarter sandwiches;
+
+[**Challenge19**](./challenges/challenge19.js): Removes the first ingredient from the Quarteirão com Queijo sandwich;
+
+[**Challenge20**](./challenges/challenge20.js): Removes the last ingredient from the Cheddar McMelt sandwich;
 
 [**Challenge21**](./challenges/challenge21.js): ;
 
