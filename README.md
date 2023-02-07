@@ -16,17 +16,17 @@ All created queries are in the [challenges](./challenges/) directory.
 
 [**Challenge5**](./challenges/challenge5.js): Returns snacks that had likes equal to 36 or sales amount equal to 85;
 
-[**Challenge6**](./challenges/challenge6.js): ;
+[**Challenge6**](./challenges/challenge6.js): Returns snacks that had likes greater than 10 and less than 100;
 
-[**Challenge7**](./challenges/challenge7.js): ;
+[**Challenge7**](./challenges/challenge7.js): Returns snacks that have been sold with a quantity other than 50 and where the tags field does not exist;
  
-[**Challenge8**](./challenges/challenge8.js): ;
+[**Challenge8**](./challenges/challenge8.js): Deletes snacks with less than 50 likes and returns the name of snacks left in the bank;
 
-[**Challenge9**](./challenges/challenge9.js): ;
+[**Challenge9**](./challenges/challenge9.js): Returns snacks that have calories below 500;
 
-[**Challenge10**](./challenges/challenge10.js): ;
+[**Challenge10**](./challenges/challenge10.js): Returns snacks that have protein percentage greater than or equal to 30 and less than or equal to 40;
 
-[**Challenge11**](./challenges/challenge11.js): ;
+[**Challenge11**](./challenges/challenge11.js): Returns snacks that are not Big Mac or McChicken;
 
 [**Challenge12**](./challenges/challenge12.js): ;
 
